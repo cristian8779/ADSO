@@ -1,40 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Registro</title>
+    <title>formulario 2</title>
 </head>
-<body>
-    <h2>FORMULARIO DE REGISTRO</h2>
-    <form>
-        <label for="identificacion">Identificación</label>
-        <select id="identificacion" name="identificacion">
-            <option value="telefono">Teléfono</option>
-            
-        </select>
-        <br><br>
 
-        <label for="tipo-documento">Tipo de Documento:</label>
-        <select id="tipo-documento" name="tipo-documento">
-            <option value="cedula">Cédula</option>
-            
-        </select>
-        <br><br>
+    <h1>formulario de registro</h1>
+    <form action="">
+      <label for="nombre">Nombre</label><br>
+      <input type="number" name="" id=""><br>
+      <label for="documento">Tipo de documento</label><br>
+       
+      <select> 
+          <option >cedula</option>
+          <option >Tarjeta de identidad</option>
+          <option >cedula extrangera </option>
+      </select><br>
+      <label for="Ncompleto"> Nombre completo</label><br>
+      <input type="text" placeholder="nombre completo "><br>
+      <label for="sexo">sexo</label><br>
+      <input type="checkbox" > femenino <br>
+      <input type="checkbox"> masculino <br>
+      <input type="submit" value="enviar">
+      <input type="submit" value="borrar">
+  </form>
 
-        <label for="nombre-completo">Nombre Completo:</label>
-        <input type="text" id="nombre-completo" name="nombre-completo">
-        <br><br>
-
-        <label>Sexo:</label>
-        <input type="radio" id="femenino" name="sexo" value="femenino">
-        <label for="femenino">Femenino</label>
-        <input type="radio" id="masculino" name="sexo" value="masculino">
-        <label for="masculino">Masculino</label>
-        <br><br>
-
-        <button type="submit">Enviar</button>
-        <button type="reset">Borrar</button>
-    </form>
 </body>
 </html>
