@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     background-image: url(bg.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+form{
+padding: 50px;
+display: flex;
+flex-direction: column;
+width: 400px;
+box-shadow: 0 0 20px black ;
+border-radius: 15px;
+background-color: aliceblue;
+
+}
+
+h2 { 
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color:black;
+  margin-bottom: 25px;
+
+}
+
+label,p {
+
+font-size: 17px;
+color: #575757;
+margin-bottom: 25px;
+}
+
+input { 
+padding: 17px 11px;
+border: 1px solid #00adef;
+border-radius: 25px;
+margin-bottom: 25px;
+background-color: #fafafa;
+outline: nome;
+font-size: 17px;
+
+}
+
+.btn-1{
+      background-color: #00adef;
+      font-size: 15px;
+      color: #ffffff;
+      text-transform: uppercase;   
+      cursor: pointer;
+}
+
+.bnt-1:haver {
+
+   background-color: #00adef;
+
+}
+
+.registrarse {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+} 
+ .remember{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+ }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+ 
