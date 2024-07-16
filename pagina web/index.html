@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransMarimba</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js" defer></script> 
+    <script src="func.js" defer></script> 
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="file.png" alt="TransMarimba Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>  
+                <li><a href="destino.html" >Destinos</a></li>
+                <li><a href="empresa.html" >Empresa</a></li>
+                <li><a href="contacto.html" >Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <center><h1>Bienvenidos a TransMarimba, su mejor opción en transporte.</h1></center>
+        <section id="home" class="banner">
+            <img src="Bus-COMES-2-Revelada-scaled.jpg" alt="Banner de TransMarimba">
+            <div class="overlay">
+                <section id="ticket-form">
+                    <center><h2>Compra tus tiquetes en línea</h2>
+                    <p>Recordemos de nuevo la experiencia de viajar</p></center>
+                    <form>
+                        <div class="form-group">
+                            <label for="origen">Origen</label>
+                            <input type="text" id="origen" name="origen">
+                        </div>
+                        <div class="form-group">
+                            <label for="destino">Destino</label>
+                            <select id="destino" name="destino">
+                                <option value="Medellín">Medellín</option>
+                                <option value="Bogotá">Bogotá</option>
+                                <option value="Santa Marta">Santa Marta</option>
+                                <option value="Barranquilla">Barranquilla</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="fecha">¿Cuándo viajas?</label>
+                            <input type="date" id="fecha" name="fecha">
+                        </div>
+                        <button type="submit" id="buscar">Buscar</button>
+                    </form>
+                </section>
+                <section id="ticket-list">
+                    <h2>Tiquetes Guardados</h2>
+                    <ul id="ticket-display"></ul>
+                    <button id="clear-history">Borrar Historial</button>
+                </section>
+            </div>
+        </section>
+        <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2dVsQFlXNzQ?si=DA0jUlM9O4n-d-bL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
+        <br>
+        <center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69980753426!2d-75.66361482283592!3d6.244367698113962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1720670874070!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </center>
+    </main>
+    <footer>
+        <p>&copy; 2024 TransMarimba. Todos los derechos reservados.</p>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
+</body>
+</html>

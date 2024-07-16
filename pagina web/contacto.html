@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - TransMarimba</title>
+    <link rel="stylesheet" href="contacto.css">
+    <script src="scrip.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="file.png" alt="Logo de TransMarimba">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinos.html">Destino</a></li>
+                <li><a href="empresa.html">Empresa</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="send_form.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p><strong>Dirección:</strong> Calle 123, Medellín, Antioquia</p>
+            <p><strong>Teléfono:</strong> +57 123 456 7890</p>
+            <p><strong>Email:</strong> contacto@transmarimba.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TransMarimba. Todos los derechos reservados.</p>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </footer>
+</body>
+</html>

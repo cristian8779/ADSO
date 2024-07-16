@@ -1,0 +1,146 @@
+/* contacto.css */
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #54ade4e4;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 90px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #0055a5;
+  border-radius: 5px;
+}
+
+main {
+  padding: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section#contacto {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
+section#contacto h2 {
+  text-align: center;
+  color: #333;
+}
+
+section#contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+section#contacto label {
+  margin-top: 10px;
+  color: #555;
+}
+
+section#contacto input,
+section#contacto textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+section#contacto textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+section#contacto button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+section#contacto button:hover {
+  background-color: #0056b3;
+}
+
+section#contacto p {
+  margin-top: 20px;
+  color: #555;
+}
+
+section#contacto p strong {
+  color: #333;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p, footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+  .logo img {
+      height: 60px; /* Reducir el tamaño del logo para pantallas pequeñas */
+  }
+
+  header {
+      padding: 5px 10px; /* Ajustar el padding del encabezado para pantallas pequeñas */
+  }
+
+  main {
+      padding: 20px; /* Reducir el padding del contenido principal para pantallas pequeñas */
+  }
+
+  section#contacto {
+      padding: 15px; /* Ajustar el padding de las secciones para pantallas pequeñas */
+  }
+}

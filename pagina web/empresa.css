@@ -1,0 +1,138 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #54ade4e4;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .banner .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgba(196, 209, 232, 0.912);
+    padding: 1em;
+    border-radius: 0.5em
+   
+  }
+  .logo img {
+    height: 90px;
+  }
+   
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0055a5;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  #empresa h2 {
+    color: #003366;
+    text-align: center;
+}
+
+#empresa .section-container {
+    border: 2px solid #cadef2;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+    background: linear-gradient(to right, #f9f9f9, #f1f1f1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#empresa .section-container::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    border-radius: 15px;
+    background: linear-gradient(to right, #ffffff, #e6e6e6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#empresa p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+#empresa .image-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#empresa .image-container img {
+
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+
+}
+  
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p, footer a {
+    color: white;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+
+ /* Estilos específicos para pantallas pequeñas */
+ @media only screen and (max-width: 600px) {}
+  .logo img {
+      height: 60px; /* Reducir el tamaño del logo para pantallas pequeñas */
+  }
+
+  header {
+      padding: 5px 10px; /* Ajustar el padding del encabezado para pantallas pequeñas */
+  }
+
+  main {
+      padding: 20px; /* Reducir el padding del contenido principal para pantallas pequeñas */
+  }
